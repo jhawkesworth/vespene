@@ -34,6 +34,7 @@ PLUGIN_CONFIGURATION = dict(
     scm = OrderedDict(
         none = "vespene.plugins.scm.none",
         git = "vespene.plugins.scm.git",
+        hg = "vespene.plugins.scm.hg",
         svn = "vespene.plugins.scm.svn"
     ), 
 
